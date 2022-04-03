@@ -1,0 +1,39 @@
+                          ALGORITHM
+STEP 01) START
+
+STEP 02) This is the menu driven program so we have 3 choices in this program. If the user enters choice is equal to 1 (choice==1) then the step 3 will operate. If the user enters the 
+choice is equal to 2 (choice==2) then the step 4 will operate. If the user enters the choice is equal to 3 (choice==3) then the step 5 will operate. If the user enters the choice is equal 
+to 4 (choice == 4) then the step 6 will operate. If the user enters the choice is equal to 5 (choice == 5) then the step 7 will operate. 
+
+STEP 03) If the user enters the choice 1 then the function of insertion is called by user to add the student details. This function will ask users to enter the student name, usn, phone 
+number and cgpa of the student.
+
+STEP 04) If the user enters the choice 2 then the search function will called by user to search the student details. if the searched student usn is not added or deleted after adding 
+it will display the student usn is not found if student details are added and not deleted means it will display the student details are found and it will display the existing student 
+details.
+
+STEP 05) If the user enters the choice 3 then the function for deletion is called by user to delete the existed student detail. In this user ask for USN of student to be deleted. If user 
+enters the correct existed USN then that student details will deleted. If the user entered the non-existed USN then system display the student USN is not found.
+Records of students in coaching institutions.Dept of CSE, NHCE 15
+
+STEP 06) If the user enters the choice 4 then the function for update the student details will called by user to edit the existing student details. It will ask user to enter the usn of 
+student whose details to be update or edit, then the user enters the usn of student if that usn is not there means it will display the usn of the student is not found.
+ The usn is existing means it will ask for new details of student means new or correct name of student, new phone number or email id and new cgpa of the student and 
+user will add these details it can be viewable in display function.
+
+STEP 07) If the user enters the choice 3 then the function for display is called by user to display all existing student detail added by user. The deleted student details are not 
+displayed here. The display function displays the USN, name, phone number and cgpa of all students who ever entered by user. Display function displays the updated student details it is not display old data 
+enter by user it will display newly added details.
+
+STEP 08) In this program I used the do while loop so if the user enters the choice equal to 0 (choice==0) the the step 7 will operate. The condition for do while loop is choice is not 
+equal to 0 so up to the user enters the 0 the program will run.
+
+STEP 09) STOP
+  
+EXPECTED OUTCOMES:
+
+1. Add the students details like name, usn, phone number and cgpa of the student.
+2. Search the student details by searching with his/her USN.
+3. Delete the existing student details from list.
+4. Update the existing student details.
+5. Display the student details.  
